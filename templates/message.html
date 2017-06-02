@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="/message" method="post">
+        <input type="text" name="author">
+        <br>
+        <textarea name="message" rows="8" cols="40"></textarea>
+        <button type="submit">POST 提交</button>
+    </form>
+    messages:
+    {% for m in messages %}
+        <p>{{ m.author }}: {{ m.message }}</p>
+    {% endfor %}
+</body>
+</html>

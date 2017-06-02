@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "content": "",
+    "user_id": 1,
+    "weibo_id": -1
+  },
+  {
+    "id": 2,
+    "content": "瓜1吃饭",
+    "user_id": 2,
+    "weibo_id": 2
+  },
+  {
+    "id": 3,
+    "content": "微博3+的新评论",
+    "user_id": 2,
+    "weibo_id": 3
+  },
+  {
+    "id": 4,
+    "content": "来自瓜1+的评论",
+    "user_id": 2,
+    "weibo_id": 1
+  },
+  {
+    "id": 5,
+    "content": "你好呀",
+    "user_id": 2,
+    "weibo_id": 1
+  }
+]

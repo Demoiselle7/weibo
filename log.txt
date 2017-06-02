@@ -1,0 +1,1575 @@
+20:9:53 listening server at http://127.0.0.1:5000
+20:9:57 请求开始
+20:9:57 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+
+
+20:9:57 请求结束
+20:9:57 请求开始
+20:9:57 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: image/webp,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+
+
+20:9:58 请求结束
+20:10:4 请求开始
+20:10:4 ip and request, 127.0.0.1
+GET /login HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+
+
+20:10:4 请求结束
+20:10:11 请求开始
+20:10:11 ip and request, 127.0.0.1
+POST /login HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 25
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:5000
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+
+username=gua&password=123
+20:10:11 请求结束
+20:10:12 请求开始
+20:10:12 ip and request, 127.0.0.1
+GET /login HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+
+
+20:10:12 请求结束
+20:10:14 请求开始
+20:10:14 ip and request, 127.0.0.1
+GET /register HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+
+
+20:10:14 请求结束
+20:10:21 请求开始
+20:10:21 ip and request, 127.0.0.1
+POST /register HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 37
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:5000
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/register
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+
+username=gua&password=123&note=nodejs
+20:10:21 请求结束
+20:14:42 请求开始
+20:14:42 ip and request, 127.0.0.1
+GET /login HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+
+
+20:14:42 请求结束
+20:14:51 请求开始
+20:14:51 ip and request, 127.0.0.1
+POST /login HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 25
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:5000
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+
+username=gua&password=123
+20:14:51 请求结束
+20:15:6 请求开始
+20:15:6 ip and request, 127.0.0.1
+POST /login HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 62
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:5000
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+username=gua&password=6aa61ba1213b734b79cd659110994562d085d326
+20:15:6 请求结束
+21:23:59 请求开始
+21:23:59 ip and request, 127.0.0.1
+GET /todo HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:23:59 请求结束
+21:24:6 请求开始
+21:24:6 ip and request, 127.0.0.1
+GET /todo HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:24:6 请求结束
+21:25:12 listening server at http://127.0.0.1:5000
+21:25:20 请求开始
+21:25:20 ip and request, 127.0.0.1
+GET /todo HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:25:20 请求结束
+21:36:58 请求开始
+21:36:58 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: image/webp,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:5000/register
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:36:58 请求结束
+21:36:59 请求开始
+21:36:59 ip and request, 127.0.0.1
+GET /register HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:36:59 请求结束
+21:37:1 请求开始
+21:37:1 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:37:1 请求结束
+21:37:1 请求开始
+21:37:1 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: image/webp,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:37:1 请求结束
+21:37:2 请求开始
+21:37:2 ip and request, 127.0.0.1
+GET /weibo/index HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:37:3 请求结束
+21:37:32 listening server at http://127.0.0.1:5000
+21:37:34 请求开始
+21:37:34 ip and request, 127.0.0.1
+GET /weibo/index?user_id=1 HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:37:34 请求结束
+21:37:36 请求开始
+21:37:36 ip and request, 127.0.0.1
+GET /weibo/new HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/weibo/index?user_id=1
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:37:36 请求结束
+21:37:41 请求开始
+21:37:41 ip and request, 127.0.0.1
+POST /weibo/add HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 26
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:5000
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/weibo/new
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+content=%E5%90%83%E9%A5%AD
+21:37:41 请求结束
+21:37:41 请求开始
+21:37:41 ip and request, 127.0.0.1
+GET /weibo/index?user_id=1 HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/weibo/new
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:37:41 请求结束
+21:37:45 请求开始
+21:37:45 ip and request, 127.0.0.1
+POST /comment/add HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 37
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:5000
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/weibo/index?user_id=1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:37:45 请求结束
+21:37:56 listening server at http://127.0.0.1:5000
+21:37:59 请求开始
+21:37:59 ip and request, 127.0.0.1
+GET /weibo/index?user_id=1 HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/weibo/new
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:37:59 请求结束
+21:38:20 请求开始
+21:38:20 ip and request, 127.0.0.1
+POST /login HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 25
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:5000
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+username=lin&password=123
+21:38:20 请求结束
+21:38:28 请求开始
+21:38:28 ip and request, 127.0.0.1
+GET /register HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:38:28 请求结束
+21:38:34 请求开始
+21:38:34 ip and request, 127.0.0.1
+POST /register HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 34
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:5000
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/register
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:38:34 请求结束
+21:38:45 listening server at http://127.0.0.1:5000
+21:38:49 请求开始
+21:38:49 ip and request, 127.0.0.1
+POST /register HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 34
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:5000
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/register
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:38:49 请求结束
+21:39:57 listening server at http://127.0.0.1:5000
+21:40:3 请求开始
+21:40:3 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+
+
+21:40:3 请求结束
+21:40:4 请求开始
+21:40:4 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: image/webp,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+
+
+21:40:4 请求结束
+21:40:6 请求开始
+21:40:6 ip and request, 127.0.0.1
+GET /register HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+
+
+21:40:6 请求结束
+21:40:13 请求开始
+21:40:13 ip and request, 127.0.0.1
+POST /register HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 34
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:5000
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/register
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+
+username=gua1&password=123&note=js
+21:40:13 请求结束
+21:40:28 请求开始
+21:40:28 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+
+
+21:40:28 请求结束
+21:40:28 请求开始
+21:40:28 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: image/webp,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+
+
+21:40:28 请求结束
+21:40:30 请求开始
+21:40:30 ip and request, 127.0.0.1
+GET /weibo/index HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+
+
+21:40:30 请求结束
+21:40:30 请求开始
+21:40:30 ip and request, 127.0.0.1
+GET /login HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+
+
+21:40:30 请求结束
+21:40:35 请求开始
+21:40:35 ip and request, 127.0.0.1
+GET /login HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+
+
+21:40:35 请求结束
+21:40:39 请求开始
+21:40:39 ip and request, 127.0.0.1
+POST /login HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 25
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:5000
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+
+username=gua&password=123
+21:40:39 请求结束
+21:40:45 请求开始
+21:40:45 ip and request, 127.0.0.1
+GET /weibo/index?user_id=1 HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:40:45 请求结束
+21:41:28 请求开始
+21:41:28 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+21:41:28 请求结束
+21:41:28 请求开始
+21:41:28 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:5000/
+Connection: keep-alive
+
+
+21:41:28 请求结束
+21:41:28 请求开始
+21:41:28 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+21:41:28 请求结束
+21:41:30 请求开始
+21:41:30 ip and request, 127.0.0.1
+GET /login HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:5000/
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+21:41:30 请求结束
+21:41:30 请求开始
+21:41:30 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+21:41:30 请求结束
+21:41:34 请求开始
+21:41:34 ip and request, 127.0.0.1
+POST /login HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 26
+Referer: http://127.0.0.1:5000/login
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+username=gua1&password=123
+21:41:34 请求结束
+21:41:34 请求开始
+21:41:34 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+21:41:34 请求结束
+21:41:48 请求开始
+21:41:48 ip and request, 127.0.0.1
+GET /weibo?user_id=2 HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+21:41:48 请求结束
+21:41:49 请求开始
+21:41:49 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+21:41:49 请求结束
+21:42:0 请求开始
+21:42:0 ip and request, 127.0.0.1
+GET /weibo/index?user_id=2 HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+21:42:0 请求结束
+21:42:0 请求开始
+21:42:0 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+21:42:0 请求结束
+21:42:1 请求开始
+21:42:1 ip and request, 127.0.0.1
+GET /weibo/new HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:5000/weibo/index?user_id=2
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+21:42:1 请求结束
+21:42:1 请求开始
+21:42:1 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+21:42:1 请求结束
+21:42:8 请求开始
+21:42:8 ip and request, 127.0.0.1
+POST /weibo/add HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 45
+Referer: http://127.0.0.1:5000/weibo/new
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+content=%E7%93%9C1%E7%9A%84%E5%BE%AE%E5%8D%9A
+21:42:8 请求结束
+21:42:8 请求开始
+21:42:8 ip and request, 127.0.0.1
+GET /weibo/index?user_id=2 HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:5000/weibo/new
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+21:42:8 请求结束
+21:42:8 请求开始
+21:42:8 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+21:42:8 请求结束
+21:42:15 请求开始
+21:42:15 ip and request, 127.0.0.1
+POST /comment/add HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 47
+Referer: http://127.0.0.1:5000/weibo/index?user_id=2
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+weibo_id=2&content=%E7%93%9C1%E5%90%83%E9%A5%AD
+21:42:15 请求结束
+21:42:15 请求开始
+21:42:15 ip and request, 127.0.0.1
+GET /weibo/index?user_id=2 HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:5000/weibo/index?user_id=2
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+21:42:15 请求结束
+21:42:15 请求开始
+21:42:15 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+21:42:15 请求结束
+21:42:18 请求开始
+21:42:18 ip and request, 127.0.0.1
+GET /weibo/index?user_id=1 HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:42:18 请求结束
+21:42:18 请求开始
+21:42:18 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: image/webp,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:5000/weibo/index?user_id=1
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:42:18 请求结束
+21:43:1 请求开始
+21:43:1 ip and request, 127.0.0.1
+GET /weibo/index?user_id=1 HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:43:1 请求结束
+21:43:1 请求开始
+21:43:1 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: image/webp,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:5000/weibo/index?user_id=1
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:43:1 请求结束
+21:43:6 请求开始
+21:43:6 ip and request, 127.0.0.1
+GET /weibo/index?user_id=2 HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:43:6 请求结束
+21:43:9 请求开始
+21:43:9 ip and request, 127.0.0.1
+GET /weibo/index?user_id=1 HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN,zh;q=0.8,und;q=0.6
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+21:43:9 请求结束
+21:44:43 请求开始
+21:44:43 ip and request, 127.0.0.1
+GET /weibo/new HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:5000/weibo/index?user_id=2
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+21:44:43 请求结束
+21:44:43 请求开始
+21:44:43 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+21:44:43 请求结束
+21:45:25 请求开始
+21:45:25 ip and request, 127.0.0.1
+POST /weibo/add HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 44
+Referer: http://127.0.0.1:5000/weibo/new
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+content=%E6%96%B0%E7%9A%84%E5%BE%AE%E5%8D%9A
+21:45:25 请求结束
+21:45:25 请求开始
+21:45:25 ip and request, 127.0.0.1
+GET /weibo/index?user_id=2 HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:5000/weibo/new
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+21:45:25 请求结束
+21:45:25 请求开始
+21:45:25 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+21:45:25 请求结束
+21:55:8 请求开始
+21:55:8 ip and request, 127.0.0.1
+POST /comment/add HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 75
+Referer: http://127.0.0.1:5000/weibo/index?user_id=2
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+weibo_id=3&content=%E5%BE%AE%E5%8D%9A3+%E7%9A%84%E6%96%B0%E8%AF%84%E8%AE%BA
+21:55:8 请求结束
+21:55:8 请求开始
+21:55:8 ip and request, 127.0.0.1
+GET /weibo/index?user_id=2 HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:5000/weibo/index?user_id=2
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+21:55:8 请求结束
+21:55:8 请求开始
+21:55:8 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+21:55:8 请求结束
+22:1:24 请求开始
+22:1:24 ip and request, 127.0.0.1
+GET /weibo/index?user_id=1 HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+22:1:24 请求结束
+22:1:24 请求开始
+22:1:24 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+22:1:24 请求结束
+22:1:32 请求开始
+22:1:32 ip and request, 127.0.0.1
+POST /comment/add HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 75
+Referer: http://127.0.0.1:5000/weibo/index?user_id=1
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+weibo_id=1&content=%E6%9D%A5%E8%87%AA%E7%93%9C1+%E7%9A%84%E8%AF%84%E8%AE%BA
+22:1:32 请求结束
+22:1:32 请求开始
+22:1:32 ip and request, 127.0.0.1
+GET /weibo/index?user_id=1 HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:5000/weibo/index?user_id=1
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+22:1:32 请求结束
+22:1:32 请求开始
+22:1:33 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+22:1:33 请求结束
+22:2:6 请求开始
+22:2:6 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+22:2:6 请求结束
+22:2:19 请求开始
+22:2:19 ip and request, 127.0.0.1
+GET /weibo/index?user_id=1 HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+22:2:19 请求结束
+22:2:19 请求开始
+22:2:19 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+22:2:19 请求结束
+22:4:22 请求开始
+22:4:22 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+22:4:22 请求结束
+22:4:23 请求开始
+22:4:23 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+22:4:23 请求结束
+22:6:40 请求开始
+22:6:40 ip and request, 127.0.0.1
+GET /weibo/index?user_id=1 HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+22:6:40 请求结束
+22:6:40 请求开始
+22:6:40 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+22:6:40 请求结束
+22:6:42 请求开始
+22:6:42 ip and request, 127.0.0.1
+GET /weibo/new HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:5000/weibo/index?user_id=1
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+22:6:42 请求结束
+22:6:43 请求开始
+22:6:43 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+22:6:43 请求结束
+22:6:55 请求开始
+22:6:55 ip and request, 127.0.0.1
+POST /weibo/add HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 13
+Referer: http://127.0.0.1:5000/weibo/new
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+content=node7
+22:6:55 请求结束
+22:6:55 请求开始
+22:6:55 ip and request, 127.0.0.1
+GET /weibo/index?user_id=2 HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:5000/weibo/new
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+22:6:55 请求结束
+22:6:55 请求开始
+22:6:55 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+22:6:55 请求结束
+22:7:8 请求开始
+22:7:8 ip and request, 127.0.0.1
+GET /weibo/index?user_id=1 HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+22:7:8 请求结束
+22:7:9 请求开始
+22:7:9 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+22:7:9 请求结束
+22:7:20 请求开始
+22:7:20 ip and request, 127.0.0.1
+POST /comment/add HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 46
+Referer: http://127.0.0.1:5000/weibo/index?user_id=1
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+weibo_id=1&content=%E4%BD%A0%E5%A5%BD%E5%91%80
+22:7:20 请求结束
+22:7:20 请求开始
+22:7:20 ip and request, 127.0.0.1
+GET /weibo/index?user_id=1 HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:5000/weibo/index?user_id=1
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+22:7:20 请求结束
+22:7:20 请求开始
+22:7:20 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+22:7:20 请求结束
+22:9:12 请求开始
+22:9:12 ip and request, 127.0.0.1
+GET /weibo/delete?id=1 HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:5000/weibo/index?user_id=1
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+22:9:12 请求结束
+22:9:12 请求开始
+22:9:12 ip and request, 127.0.0.1
+GET /weibo/index?user_id=2 HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:5000/weibo/index?user_id=1
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+22:9:12 请求结束
+22:9:12 请求开始
+22:9:13 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+22:9:13 请求结束
+22:9:19 请求开始
+22:9:19 ip and request, 127.0.0.1
+GET /weibo/index?user_id=2 HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+22:9:19 请求结束
+22:9:19 请求开始
+22:9:19 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+22:9:19 请求结束
+22:9:21 请求开始
+22:9:21 ip and request, 127.0.0.1
+GET /weibo/delete?id=2 HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:5000/weibo/index?user_id=2
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+22:9:21 请求结束
+22:9:21 请求开始
+22:9:21 ip and request, 127.0.0.1
+GET /weibo/index?user_id=2 HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:5000/weibo/index?user_id=2
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+22:9:21 请求结束
+22:9:21 请求开始
+22:9:21 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+22:9:21 请求结束
+22:9:23 请求开始
+22:9:23 ip and request, 127.0.0.1
+GET /weibo/edit?id=3 HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:5000/weibo/index?user_id=2
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+22:9:23 请求结束
+22:9:23 请求开始
+22:9:23 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+22:9:23 请求结束
+22:9:25 请求开始
+22:9:25 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: session=3cc9c4b4d06589121f85c54eaf40cbb2
+Connection: keep-alive
+
+
+22:9:25 请求结束
+20:58:28 listening server at http://0.0.0.0:5000
+21:33:14 listening server at http://0.0.0.0:5000
+21:33:23 请求开始
+21:33:23 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 0.0.0.0:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Webstorm-8e2ae63c=f90d68a3-9557-4757-b6c4-54e2d3acfeb6; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VybmFtZSI6ImFkbWluIn0.DAVIjQ.5gktbZBUkpV0RoPcYMuvHJJY5Mw
+
+
+21:33:23 请求结束
+21:33:23 listening server at http://0.0.0.0:5000
+21:33:24 请求开始
+21:33:24 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 0.0.0.0:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VybmFtZSI6ImFkbWluIn0.DAVIjQ.5gktbZBUkpV0RoPcYMuvHJJY5Mw
+
+
+21:33:24 请求结束
+21:33:25 listening server at http://0.0.0.0:5000

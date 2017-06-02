@@ -1,0 +1,12 @@
+[
+  {
+    "id": 3,
+    "content": "新的微博",
+    "user_id": 2
+  },
+  {
+    "id": 4,
+    "content": "node7",
+    "user_id": 2
+  }
+]
